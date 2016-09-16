@@ -1,11 +1,10 @@
 // Lab_3_StatesDraft1.cpp : Defines the entry point for the console application.
 //Author: Jamil Saliiba
 //Date: 9/15/16
-//Description: Console Application that displays a State when entering a value between 1-50. Each input corresponds to one state in alphabetical order from 1-50.
-
-//Write a program where the user will enter a number between 1 and 50 representing a state. The program should display the full name of that state.
-//Assume the states are in alphabetical order, that is 1 = "Alaska", 2 = "Alabama", etc.
-//If an invalid state is entered, then an error message should be displayed.
+/*Description: Console Application that displays a State when entering a value between 1-50. Each input corresponds to one state in alphabetical order from 1-50.
+Takes int and uses the switch function to convert number into a name while also checking each case for values 1-50, and invalid value message is displayed when
+a number is not contained within the range.
+*/
 
 #include "stdafx.h"
 
