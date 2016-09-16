@@ -14,6 +14,7 @@ int main()
 {
 	//Variable Declaration
 	int iNumber;
+	printf("Enter a value from 1-50>\n");
 	scanf("%d", &iNumber);
 	
 	switch ((int)(iNumber)) {
