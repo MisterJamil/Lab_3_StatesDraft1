@@ -13,22 +13,19 @@
 int main()
 {
 	//Variable Declaration
-	int iNumber;
-	char iState;
-		switch ((int)(iNumber)) {
-	case 1:
-		iState = "Alaska";
+	int iNumber = 1;
+	
+	switch (iNumber) {
+	case 1: "Alaska";
 		break;
-	case 2:
-		iState = "Arizona";
+	case 2: "Arizona";
 		break;
-	default:
-		iState = "Invalid value";
+	default: "Invalid value";
 	}
 	
 	//Input
 	printf("Enter a value from 1-50>\n");
-	scanf("%d", &iState);
+	scanf("%d", &iNumber);
 
 	
 	return 0;
