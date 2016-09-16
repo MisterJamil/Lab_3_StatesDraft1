@@ -18,7 +18,9 @@ int main()
 	
 	switch ((int)(iNumber)) {
 	case 1 : printf("Alaska");
+		break;
 	case 2 : printf("Arizona");
+		break;
 	default: printf("Invalid value");
 	}
 	
