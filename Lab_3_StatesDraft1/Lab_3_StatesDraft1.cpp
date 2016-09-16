@@ -16,14 +16,13 @@ int main()
 	int iNumber;
 	scanf("%d", &iNumber);
 	
-	switch (iNumber) {
-	case '1' : printf("Alaska");
-	case '2' : printf("Arizona");
+	switch ((int)(iNumber)) {
+	case 1 : printf("Alaska");
+	case 2 : printf("Arizona");
 	default: printf("Invalid value");
 	}
 	
 	//Input
-	
 	
 	return 0;
 }
