@@ -13,15 +13,17 @@
 int main()
 {
 	//Variable Declaration
-	int iNumber = '2';
+	int iNumber;
+	scanf("%d", &iNumber);
 	
 	switch (iNumber) {
-	case '1' : "Alaska";
-	case '2' : "Arizona";
-	default: "Invalid value";
+	case '1' : printf("Alaska");
+	case '2' : printf("Arizona");
+	default: printf("Invalid value");
 	}
 	
 	//Input
+	
 	
 	return 0;
 }
